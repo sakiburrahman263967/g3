@@ -2,22 +2,68 @@
   font-family: 'Open Sans', sans-serif;
   font-family: 'Work Sans', sans-serif;
 }
-header{
+
+header {
   background: rgba(255, 144, 14, 0.10);
   padding: 50px 240px;
 }
-nav{
+
+nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-nav > ul{
+
+nav>ul {
   display: flex;
 }
-nav li{
+
+nav li {
   list-style: none;
   margin-right: 30px;
- 
+  font-weight: 500;
+  font-size: 18px;
+
 }
-nav a{
+
+nav a {
   text-decoration: none;
+}
+
+
+.nav-title {
+  font-size: 45px;
+  font: weight 700;
+  color: #131313;
+}
+
+
+
+.banner-content {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.banner-title {
+  color: #131313;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.banner-dipription {
+  width: 868px;
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.btn-primary {
+  width: 180px;
+  height: 64px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #FFF;
+  border-radius: 8px;
+  background: #FF900E;
 }
