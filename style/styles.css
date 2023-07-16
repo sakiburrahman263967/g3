@@ -123,31 +123,86 @@ main {
 .span3 {
   color: #FF900E;
 }
-.Facts-p{
+
+.Facts-p {
   color: #727272;
 }
 
-.feac-text{
-color:#131313;
-font-size: 45px;
-font-weight: 700;
+
+/* featurs styles  */
+.features {
+  margin-top: 130px;
+  display: flex;
+  gap: 100px;
+}
+
+.feature-content,
+.card {
+  padding: 30px;
+  margin-bottom: 22px;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+
+}
+.features   .section-title{
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+}
+.ten-Year-badge{
+  border-radius: 8px;
+  background-color: #FF900E;
+  color: #FFF;
+  width: 342px;
+  padding: 40px;
+  
+}
+.ten-Year-badge h2{
+  font-size: 64px;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.feac-text {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
 
 }
 
-.Facts-card-container{
+.Facts-card-container {
   display: flex;
   justify-content: space-around;
 
 }
 
-.Facts-card-container .card{
+.Facts-card-container .card {
   border-radius: 8px;
   border: 1px solid #FF900E;
   text-align: center;
   padding: 30px 30px;
 
 }
-.Facts-card-container .card-title{
+
+.Facts-card-container .card-title {
   font-weight: 600;
   font-size: 20px;
   margin-top: 5px;
@@ -157,21 +212,23 @@ font-weight: 700;
 
 
 
-.Facts-card-container .card-stats{
+.Facts-card-container .card-stats {
   font-size: 45px;
   color: #424242;
   margin-top: 10px;
   margin-bottom: 10px;
 
 }
-.sponsors-description{
+
+.sponsors-description {
   color: #727272;
 }
-.sponsors{
+
+.sponsors {
   text-align: center;
 }
 
-.sponsors-img-container{
+.sponsors-img-container {
   margin-top: 50px;
   display: flex;
   justify-content: space-evenly;
