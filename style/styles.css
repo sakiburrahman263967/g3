@@ -164,8 +164,18 @@ font-weight: 700;
   margin-bottom: 10px;
 
 }
+.sponsors-description{
+  color: #727272;
+}
+.sponsors{
+  text-align: center;
+}
 
-
+.sponsors-img-container{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
 
 
 
