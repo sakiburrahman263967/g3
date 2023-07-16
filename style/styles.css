@@ -52,13 +52,14 @@ nav a {
 }
 
 .banner-dipription {
-  width: 868px;
+  width: 800px;
   color: #727272;
   font-size: 16px;
   font-weight: 400;
 }
 
 .btn-primary {
+  padding: 20px 10px;
   width: 180px;
   height: 64px;
   font-size: 20px;
@@ -66,4 +67,9 @@ nav a {
   color: #FFF;
   border-radius: 8px;
   background: #FF900E;
+  cursor: pointer;
+  border: 1px solid white;
+}
+img{
+  width: 100%;
 }
